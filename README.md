@@ -12,9 +12,11 @@
 
 ### Bangkhen — เว็บไซต์แนะนำสถานที่ในเขตบางเขน
 
-<a href="https://github.com/popoza11874/bangkhen">
-  <img src="https://raw.githubusercontent.com/popoza11874/bangkhen/main/public/ban-bang-khen.jpg" alt="Bangkhen website" width="100%" />
-</a>
+<p align="center">
+  <a href="https://github.com/popoza11874/bangkhen">
+    <img src="https://raw.githubusercontent.com/popoza11874/bangkhen/main/public/ban-bang-khen.jpg" alt="Bangkhen website" width="520" />
+  </a>
+</p>
 
 เว็บไซต์รวบรวมสถานที่ท่องเที่ยว ประวัติศาสตร์ ร้านอาหาร และสถานที่สำคัญในเขตบางเขน กรุงเทพฯ โปรเจกต์นี้มีทั้งเว็บไซต์สำหรับผู้เข้าชมและระบบจัดการข้อมูลสำหรับผู้ดูแล
 
