@@ -8,16 +8,29 @@ Repository สำหรับรวบรวมผลงาน โปรเจ�
 
 ## ผลงาน
 
-- เพิ่มชื่อและรายละเอียดโปรเจกต์ที่นี่
-- ระบุเทคโนโลยีที่ใช้ พร้อมลิงก์ Demo หรือ Source code
+### เว็บไซต์ท่องเที่ยวบางเขน
+
+เว็บไซต์รวบรวมข้อมูลแหล่งท่องเที่ยว ประวัติศาสตร์ วัฒนธรรม ร้านอาหาร และสถานที่สำคัญในเขตบางเขน กรุงเทพมหานคร รองรับการใช้งานทั้งบนคอมพิวเตอร์และโทรศัพท์มือถือ
+
+**ฟีเจอร์เด่น**
+
+- แสดงข้อมูลสถานที่พร้อมภาพ แกลเลอรี และ Google Maps
+- รองรับหน้ารายละเอียดสถานที่แบบ Dynamic จากข้อมูลใน Supabase
+- ระบบเข้าสู่ระบบและกำหนดสิทธิ์สำหรับผู้ดูแล
+- ระบบจัดการข้อมูลสถานที่แบบ CRUD
+- Admin Dashboard พร้อมกราฟและสถิติ
+- Responsive Design รองรับหลายขนาดหน้าจอ
+
+**เทคโนโลยี:** Next.js 14, React 18, TypeScript, Tailwind CSS, Supabase, Framer Motion, Recharts และ SweetAlert2
+
+[ดู Source code บน GitHub](https://github.com/popoza11874/bangkhen)
 
 ## ทักษะ
 
-- เพิ่มภาษาโปรแกรม เครื่องมือ และเทคโนโลยีที่ถนัด
+- Frontend: React, Next.js, TypeScript และ Tailwind CSS
+- Backend & Database: Supabase, Authentication และ CRUD
+- Tools & Libraries: Git, GitHub, Framer Motion, Recharts และ SweetAlert2
 
 ## ติดต่อ
 
-- Email: your-email@example.com
-- GitHub: https://github.com/your-username
-- LinkedIn: https://www.linkedin.com/in/your-username
-
+- GitHub: [popoza11874](https://github.com/popoza11874)
