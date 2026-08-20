@@ -66,13 +66,72 @@ Bangkhen เริ่มจากแนวคิดที่อยากรว�
 - ปรับปรุง Accessibility และประสิทธิภาพการโหลดหน้าเว็บ
 - Deploy เว็บไซต์เพื่อเปิดเป็น Live Demo
 
+<br>
+
+### BookSync — Library Borrowing System
+
+<p align="center">
+  <img src="assets/booksync-preview.png" alt="BookSync Library Borrowing System" width="650" />
+</p>
+
+ระบบจัดการห้องสมุดสำหรับดูแลหนังสือ สมาชิก และรายการยืม–คืน พัฒนาเป็น Full-stack project โดยแยก Vue Frontend และ Node.js API ออกจากกัน
+
+`Vue 3` · `Pinia` · `Vue Router` · `Node.js` · `Express` · `MySQL`
+
+### Project overview
+
+BookSync ถูกสร้างขึ้นเพื่อทดลองแก้ปัญหาการจัดการข้อมูลภายในห้องสมุดขนาดเล็ก แทนการจดรายการหนังสือ สมาชิก และประวัติการยืมคืนแยกกัน ผู้ดูแลสามารถดูภาพรวมและจัดการงานหลักจากเว็บแอปพลิเคชันเดียว
+
+### What I built
+
+- หน้า Dashboard สรุปจำนวนหนังสือ หนังสือที่พร้อมให้ยืม สมาชิก และรายการยืมล่าสุด
+- ระบบเพิ่ม แก้ไข ลบ และค้นหาหนังสือ
+- ระบบเพิ่ม แก้ไข ลบ และค้นหาสมาชิก
+- ระบบยืมและคืนหนังสือ พร้อมคำนวณวันครบกำหนด
+- ตรวจสอบจำนวนหนังสือคงเหลือก่อนทำรายการยืม
+- ป้องกันการลบหนังสือหรือสมาชิกที่ยังมีรายการยืมค้างอยู่
+- หน้าสมัครสมาชิกและเข้าสู่ระบบที่เชื่อมต่อ Node.js API
+- ตัวเลือก Accent color และบันทึกธีมที่เลือกไว้ใน Browser
+
+### Architecture
+
+Frontend พัฒนาด้วย Vue 3 และใช้ Pinia จัดการ State ของหนังสือ สมาชิก และรายการยืมคืน ข้อมูลส่วนนี้ถูกบันทึกใน `localStorage` เพื่อให้ยังอยู่หลัง Refresh หน้าเว็บ ส่วนระบบสมัครสมาชิกและเข้าสู่ระบบเรียก REST API ผ่าน Axios ไปยัง Express Server ซึ่งเชื่อมต่อกับ MySQL
+
+```text
+Vue 3 + Pinia  →  Axios  →  Express API  →  MySQL
+       │
+       └── Library data → localStorage
+```
+
+### My responsibilities
+
+ผมพัฒนาหน้าเว็บ Vue, ออกแบบ Components ที่นำกลับมาใช้ซ้ำได้, จัดการ State ด้วย Pinia, สร้าง Logic การยืมคืน และพัฒนา API สำหรับ Register/Login ด้วย Express และ MySQL
+
+### What I learned
+
+- การสร้าง Single-page Application ด้วย Vue 3 และ Vue Router
+- การจัดการ State ส่วนกลางด้วย Pinia
+- การออกแบบ Components เช่น Button, Input, Select และ Card ให้ใช้ซ้ำได้
+- การเรียก REST API ด้วย Axios และจัดการผลลัพธ์จาก Server
+- การสร้าง API ด้วย Express และใช้ Parameterized Query กับ MySQL
+- การแบ่ง Frontend และ Backend เป็นคนละโปรเจกต์
+
+### Next improvements
+
+- ย้ายข้อมูลหนังสือ สมาชิก และการยืมคืนจาก `localStorage` ไปเก็บใน MySQL
+- เพิ่มการเข้ารหัสรหัสผ่านและระบบ Token สำหรับ Authentication
+- เพิ่ม Route Guard เพื่อป้องกันหน้าที่ต้องเข้าสู่ระบบ
+- เพิ่มการตรวจสอบข้อมูลทั้งฝั่ง Frontend และ API
+- เพิ่มระบบแจ้งเตือนรายการยืมที่ใกล้ครบกำหนด
+
 ---
 
 ## <img src="assets/sticker-stack.svg" width="40" align="center" alt="" /> Stack
 
 ```text
-Frontend     Next.js / React / TypeScript / Tailwind CSS
-Backend      Supabase / Authentication / CRUD
+Frontend     Next.js / React / Vue 3 / TypeScript / Tailwind CSS
+State        Pinia / localStorage
+Backend      Supabase / Node.js / Express / MySQL
 Tools        Git / GitHub / VS Code
 ```
 
