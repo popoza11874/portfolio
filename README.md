@@ -14,7 +14,7 @@
   <tr>
     <td width="43%" valign="middle">
       <a href="https://github.com/popoza11874/bangkhen">
-        <img src="https://raw.githubusercontent.com/popoza11874/bangkhen/main/public/ban-bang-khen.jpg" alt="Bangkhen website" width="100%" />
+        <img src="assets/bangkhen-preview.png" alt="หน้าเว็บไซต์แนะนำสถานที่ท่องเที่ยวในเขตบางเขน" width="100%" />
       </a>
     </td>
     <td width="57%" valign="middle">
