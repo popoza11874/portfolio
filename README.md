@@ -13,7 +13,7 @@
 <table>
   <tr>
     <td width="43%" valign="middle">
-      <a href="https://github.com/popoza11874/bangkhen">
+      <a href="https://github.com/pattana-ketchot/bangkhen">
         <img src="assets/bangkhen-preview.png" alt="หน้าเว็บไซต์แนะนำสถานที่ท่องเที่ยวในเขตบางเขน" width="100%" />
       </a>
     </td>
@@ -21,7 +21,7 @@
       <h3>Bangkhen</h3>
       <p>เว็บไซต์แนะนำสถานที่ในเขตบางเขน พร้อมระบบ Admin สำหรับจัดการข้อมูล</p>
       <p><code>Next.js</code> <code>TypeScript</code> <code>Supabase</code></p>
-      <a href="https://github.com/popoza11874/bangkhen"><strong>View project →</strong></a>
+      <a href="https://github.com/pattana-ketchot/bangkhen"><strong>View project →</strong></a>
     </td>
   </tr>
 </table>
@@ -71,7 +71,7 @@ Bangkhen เริ่มจากแนวคิดที่อยากรว�
 ### BookSync — Library Borrowing System
 
 <p align="center">
-  <a href="https://github.com/popoza11874/-Booksync">
+  <a href="https://github.com/pattana-ketchot/-Booksync">
     <img src="assets/booksync-dashboard.jpg" alt="หน้า Dashboard ของระบบ BookSync" width="760" />
   </a>
 </p>
@@ -80,7 +80,7 @@ Bangkhen เริ่มจากแนวคิดที่อยากรว�
 
 `Vue 3` · `Pinia` · `Vue Router` · `Node.js` · `Express` · `MySQL`
 
-**[View project files →](https://github.com/popoza11874/-Booksync)**
+**[View project files →](https://github.com/pattana-ketchot/-Booksync)**
 
 ### Project overview
 
@@ -141,4 +141,4 @@ Tools        Git / GitHub / VS Code
 
 ## <img src="assets/sticker-contact.svg" width="38" align="center" alt="" /> Contact
 
-GitHub — **[@popoza11874](https://github.com/popoza11874)**
+GitHub — **[@pattana-ketchot](https://github.com/pattana-ketchot)**
