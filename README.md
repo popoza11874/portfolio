@@ -71,12 +71,16 @@ Bangkhen เริ่มจากแนวคิดที่อยากรว�
 ### BookSync — Library Borrowing System
 
 <p align="center">
-  <img src="assets/booksync-dashboard.jpg" alt="หน้า Dashboard ของระบบ BookSync" width="760" />
+  <a href="https://github.com/popoza11874/-Booksync">
+    <img src="assets/booksync-dashboard.jpg" alt="หน้า Dashboard ของระบบ BookSync" width="760" />
+  </a>
 </p>
 
 ระบบจัดการห้องสมุดสำหรับดูแลหนังสือ สมาชิก และรายการยืม–คืน พัฒนาเป็น Full-stack project โดยแยก Vue Frontend และ Node.js API ออกจากกัน
 
 `Vue 3` · `Pinia` · `Vue Router` · `Node.js` · `Express` · `MySQL`
+
+**[View project files →](https://github.com/popoza11874/-Booksync)**
 
 ### Project overview
 
