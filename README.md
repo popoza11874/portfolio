@@ -12,18 +12,16 @@
 
 <table>
   <tr>
-    <td width="43%" valign="top">
+    <td width="43%" valign="middle">
       <a href="https://github.com/popoza11874/bangkhen">
         <img src="https://raw.githubusercontent.com/popoza11874/bangkhen/main/public/ban-bang-khen.jpg" alt="Bangkhen website" width="100%" />
       </a>
     </td>
-    <td width="57%" valign="top">
+    <td width="57%" valign="middle">
       <h3>Bangkhen</h3>
-      <p><strong>เว็บไซต์แนะนำสถานที่ในเขตบางเขน</strong></p>
-      <p>รวมข้อมูลสถานที่ท่องเที่ยว ประวัติศาสตร์ และร้านอาหาร พร้อมระบบจัดการข้อมูลสำหรับผู้ดูแล</p>
-      <p>Responsive UI · Google Maps<br/>Authentication · CRUD · Dashboard</p>
+      <p>เว็บไซต์แนะนำสถานที่ในเขตบางเขน พร้อมระบบ Admin สำหรับจัดการข้อมูล</p>
       <p><code>Next.js</code> <code>TypeScript</code> <code>Supabase</code></p>
-      <p><a href="https://github.com/popoza11874/bangkhen"><strong>Source code →</strong></a></p>
+      <a href="https://github.com/popoza11874/bangkhen"><strong>View project →</strong></a>
     </td>
   </tr>
 </table>
