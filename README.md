@@ -71,7 +71,7 @@ Bangkhen เริ่มจากแนวคิดที่อยากรว�
 ### BookSync — Library Borrowing System
 
 <p align="center">
-  <img src="assets/booksync-preview.png" alt="BookSync Library Borrowing System" width="650" />
+  <img src="assets/booksync-dashboard.jpg" alt="หน้า Dashboard ของระบบ BookSync" width="760" />
 </p>
 
 ระบบจัดการห้องสมุดสำหรับดูแลหนังสือ สมาชิก และรายการยืม–คืน พัฒนาเป็น Full-stack project โดยแยก Vue Frontend และ Node.js API ออกจากกัน
