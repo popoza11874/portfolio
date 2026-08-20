@@ -1,6 +1,6 @@
 <img src="assets/header.svg" alt="Full-stack developer portfolio" width="100%" />
 
-## About
+## <img src="assets/sticker-about.svg" width="34" align="center" alt="" /> About
 
 ผมสนใจงานพัฒนาเว็บไซต์แบบ Full-stack และกำลังฝึกทำโปรเจกต์ที่ใช้งานได้จริง ตั้งแต่การออกแบบหน้าเว็บ เขียนระบบหลังบ้าน ไปจนถึงการจัดการฐานข้อมูล
 
@@ -8,7 +8,7 @@
 
 ---
 
-## Selected work
+## <img src="assets/sticker-work.svg" width="34" align="center" alt="" /> Selected work
 
 <table>
   <tr>
@@ -30,7 +30,7 @@
 
 ---
 
-## Stack
+## <img src="assets/sticker-stack.svg" width="40" align="center" alt="" /> Stack
 
 ```text
 Frontend     Next.js / React / TypeScript / Tailwind CSS
@@ -38,6 +38,6 @@ Backend      Supabase / Authentication / CRUD
 Tools        Git / GitHub / VS Code
 ```
 
-## Contact
+## <img src="assets/sticker-contact.svg" width="38" align="center" alt="" /> Contact
 
 GitHub — **[@popoza11874](https://github.com/popoza11874)**
