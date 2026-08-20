@@ -1,0 +1,12 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="360" rx="18" fill="#0B0D0C"/>
+  <path d="M0 72H1200M0 144H1200M0 216H1200M0 288H1200M120 0V360M240 0V360M360 0V360M480 0V360M600 0V360M720 0V360M840 0V360M960 0V360M1080 0V360" stroke="#171B19"/>
+  <circle cx="54" cy="45" r="7" fill="#FF6258"/>
+  <circle cx="78" cy="45" r="7" fill="#FFBD2E"/>
+  <circle cx="102" cy="45" r="7" fill="#28C840"/>
+  <text x="1080" y="51" fill="#5D6862" font-family="monospace" font-size="15" text-anchor="end">portfolio / main</text>
+  <text x="70" y="151" fill="#B7FF45" font-family="monospace" font-size="22">&gt; hello, i build for the web.</text>
+  <text x="70" y="217" fill="#F2F5F3" font-family="Arial, sans-serif" font-size="54" font-weight="700">FULL-STACK DEVELOPER</text>
+  <text x="73" y="263" fill="#8B9690" font-family="monospace" font-size="18">NEXT.JS  /  TYPESCRIPT  /  SUPABASE</text>
+  <rect x="70" y="302" width="210" height="3" fill="#B7FF45"/>
+</svg>

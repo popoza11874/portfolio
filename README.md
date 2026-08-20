@@ -1,33 +1,44 @@
-# Portfolio
+<img src="assets/header.svg" alt="Full-stack developer portfolio" width="100%" />
 
-สวัสดีครับ Repository นี้รวบรวมโปรเจกต์ที่ผมเคยทำระหว่างเรียนรู้และฝึกพัฒนาเว็บไซต์ โดยสนใจงานด้าน Full-stack Development และชอบทำเว็บที่ใช้งานได้จริงทั้งในส่วนของผู้ใช้และระบบหลังบ้าน
+## About
 
-## Bangkhen
+ผมสนใจงานพัฒนาเว็บไซต์แบบ Full-stack และกำลังฝึกทำโปรเจกต์ที่ใช้งานได้จริง ตั้งแต่การออกแบบหน้าเว็บ เขียนระบบหลังบ้าน ไปจนถึงการจัดการฐานข้อมูล
 
-เว็บไซต์แนะนำสถานที่ในเขตบางเขน กรุงเทพฯ เป็นโปรเจกต์ที่ผมทำขึ้นเพื่อรวบรวมข้อมูลสถานที่ท่องเที่ยว ประวัติศาสตร์ ร้านอาหาร และสถานที่สำคัญในพื้นที่
+ตอนนี้ใช้ **Next.js, TypeScript และ Supabase** เป็นหลัก และกำลังพัฒนาทักษะเรื่องโครงสร้างโปรเจกต์ การเขียน Component และ Authentication
 
-<img src="https://raw.githubusercontent.com/popoza11874/bangkhen/main/public/ban-bang-khen.jpg" alt="Bangkhen project" width="720" />
+---
 
-ตัวเว็บไซต์มีทั้งหน้าสำหรับผู้เข้าชมและระบบสำหรับผู้ดูแล ผู้ใช้สามารถอ่านข้อมูล ดูรูปภาพ และเปิดเส้นทางผ่าน Google Maps ส่วนผู้ดูแลสามารถเข้าสู่ระบบเพื่อเพิ่ม แก้ไข หรือลบข้อมูลสถานที่ รวมถึงดูสถิติผ่านหน้า Dashboard
+## Selected work
 
-สิ่งที่ทำในโปรเจกต์นี้
+### Bangkhen — เว็บไซต์แนะนำสถานที่ในเขตบางเขน
 
-- ออกแบบหน้าเว็บให้รองรับทั้งคอมพิวเตอร์และโทรศัพท์มือถือ
-- สร้างหน้ารายละเอียดสถานที่จากข้อมูลใน Supabase
-- ทำระบบเข้าสู่ระบบและตรวจสอบสิทธิ์ผู้ดูแล
-- ทำระบบเพิ่ม แก้ไข และลบข้อมูลสถานที่
-- แสดงข้อมูลสถิติในหน้า Dashboard
+<a href="https://github.com/popoza11874/bangkhen">
+  <img src="https://raw.githubusercontent.com/popoza11874/bangkhen/main/public/ban-bang-khen.jpg" alt="Bangkhen website" width="100%" />
+</a>
 
-เทคโนโลยีที่ใช้
+เว็บไซต์รวบรวมสถานที่ท่องเที่ยว ประวัติศาสตร์ ร้านอาหาร และสถานที่สำคัญในเขตบางเขน กรุงเทพฯ โปรเจกต์นี้มีทั้งเว็บไซต์สำหรับผู้เข้าชมและระบบจัดการข้อมูลสำหรับผู้ดูแล
 
-`Next.js` `React` `TypeScript` `Tailwind CSS` `Supabase` `Recharts`
+| ส่วนที่ทำ | รายละเอียด |
+|---|---|
+| Frontend | หน้าแสดงสถานที่ แกลเลอรี Google Maps และ Responsive layout |
+| Admin | Login, ตรวจสอบสิทธิ์ และจัดการข้อมูลแบบ CRUD |
+| Data | ดึงข้อมูลและสร้างหน้ารายละเอียดแบบ Dynamic ด้วย Supabase |
+| Dashboard | สรุปข้อมูลและแสดงกราฟด้วย Recharts |
 
-[ดู Source code ของโปรเจกต์](https://github.com/popoza11874/bangkhen)
+`Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `Supabase` · `Recharts`
 
-## สิ่งที่กำลังพัฒนา
+**[ดู Source code →](https://github.com/popoza11874/bangkhen)**
 
-ตอนนี้ผมกำลังฝึกเขียนเว็บให้เป็นระบบมากขึ้น ทั้งการแยก Component การออกแบบฐานข้อมูล การจัดการ Authentication และการใช้ Git สำหรับเก็บและติดตามงาน
+---
 
-## ติดต่อ
+## Stack
 
-GitHub: [popoza11874](https://github.com/popoza11874)
+```text
+Frontend     Next.js / React / TypeScript / Tailwind CSS
+Backend      Supabase / Authentication / CRUD
+Tools        Git / GitHub / VS Code
+```
+
+## Contact
+
+GitHub — **[@popoza11874](https://github.com/popoza11874)**
