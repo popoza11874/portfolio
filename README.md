@@ -10,26 +10,23 @@
 
 ## Selected work
 
-### Bangkhen — เว็บไซต์แนะนำสถานที่ในเขตบางเขน
-
-<p align="center">
-  <a href="https://github.com/popoza11874/bangkhen">
-    <img src="https://raw.githubusercontent.com/popoza11874/bangkhen/main/public/ban-bang-khen.jpg" alt="Bangkhen website" width="520" />
-  </a>
-</p>
-
-เว็บไซต์รวบรวมสถานที่ท่องเที่ยว ประวัติศาสตร์ ร้านอาหาร และสถานที่สำคัญในเขตบางเขน กรุงเทพฯ โปรเจกต์นี้มีทั้งเว็บไซต์สำหรับผู้เข้าชมและระบบจัดการข้อมูลสำหรับผู้ดูแล
-
-| ส่วนที่ทำ | รายละเอียด |
-|---|---|
-| Frontend | หน้าแสดงสถานที่ แกลเลอรี Google Maps และ Responsive layout |
-| Admin | Login, ตรวจสอบสิทธิ์ และจัดการข้อมูลแบบ CRUD |
-| Data | ดึงข้อมูลและสร้างหน้ารายละเอียดแบบ Dynamic ด้วย Supabase |
-| Dashboard | สรุปข้อมูลและแสดงกราฟด้วย Recharts |
-
-`Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `Supabase` · `Recharts`
-
-**[ดู Source code →](https://github.com/popoza11874/bangkhen)**
+<table>
+  <tr>
+    <td width="43%" valign="top">
+      <a href="https://github.com/popoza11874/bangkhen">
+        <img src="https://raw.githubusercontent.com/popoza11874/bangkhen/main/public/ban-bang-khen.jpg" alt="Bangkhen website" width="100%" />
+      </a>
+    </td>
+    <td width="57%" valign="top">
+      <h3>Bangkhen</h3>
+      <p><strong>เว็บไซต์แนะนำสถานที่ในเขตบางเขน</strong></p>
+      <p>รวมข้อมูลสถานที่ท่องเที่ยว ประวัติศาสตร์ และร้านอาหาร พร้อมระบบจัดการข้อมูลสำหรับผู้ดูแล</p>
+      <p>Responsive UI · Google Maps<br/>Authentication · CRUD · Dashboard</p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>Supabase</code></p>
+      <p><a href="https://github.com/popoza11874/bangkhen"><strong>Source code →</strong></a></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
